@@ -1,0 +1,86 @@
+HTML  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeevadharshini | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Jeevadharshini</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h1>Hi, I'm <span>Jeevadharshini</span></h1>
+      <p>Aspiring Web Developer from Tiruppur</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Jeevadharshini, a passionate web developer from Tiruppur with a love for creating visually stunning, 
+      user-friendly websites. I specialize in HTML, CSS, JavaScript, and responsive web design. 
+      My goal is to develop creative solutions and deliver seamless user experiences.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React Basics</div>
+      <div class="skill">UI/UX Design</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing skills, projects, and contact details.</p>
+      </div>
+      <div class="project-card">
+        <h3>Restaurant Landing Page</h3>
+        <p>A responsive landing page for a restaurant with modern UI design.</p>
+      </div>
+      <div class="project-card">
+        <h3>Todo List Web App</h3>
+        <p>A simple, interactive todo list app built with HTML, CSS, and JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="tel" id="phone" placeholder="Your Phone" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Jeevadharshini | Built with ❤</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
